@@ -19,25 +19,35 @@ header>.logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 1%;
 }
 
 header img {
-
   width: 70px;
   height: auto;
 }
 
 header>button {
   margin-left: auto;
+  border: solid 1px black;
+  border-radius: 9px;
+  padding: 1% 2%;
+  background-color: white;
+}
+
+header>div:last-of-type {
+  margin-left: 1%;
 }
 
 main {
-  background-color: lightskyblue;
   width: min(700px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 article {
-  border: solid 1px black;
+  background-color: lightskyblue;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   grid-template-rows: 50px 1fr 50px 50px;
