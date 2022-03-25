@@ -1,0 +1,1 @@
+Small book library app to practice JavaScript prototype inheritance concepts.
