@@ -1,3 +1,3 @@
-Small book library app to practice JavaScript prototype inheritance concepts.
+Small book library app to practice JavaScript object contructor concepts.
 
 ![Final dashboard view](./images/screenshot.png?raw=true "Title")
