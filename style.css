@@ -35,6 +35,10 @@ header>button {
   background-color: white;
 }
 
+button:hover {
+  background-color: antiquewhite;
+}
+
 header>div:last-of-type {
   margin-left: 1%;
 }
@@ -52,6 +56,7 @@ article {
   grid-template-columns: 3fr 1fr 1fr;
   grid-template-rows: 50px 1fr 50px 50px;
   align-items: center;
+  padding: 0% 5%;
 }
 
 article>h4, article>p {
@@ -72,5 +77,9 @@ article>button.read {
 
 article>button.delete {
   grid-column: 3;
+}
+
+button.completed {
+  background: green;
 }
 
